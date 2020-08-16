@@ -1,0 +1,12 @@
+page {
+    background-color: #d5e4f7;
+  }
+  .conference_bind{
+    background-color: #f4f7fc;
+    align-items: center;
+    justify-content: center;  
+    width: 700rpx; 
+    height: 200rpx;
+    margin: 20rpx;
+    padding: 20rpx;
+  }

@@ -1,0 +1,15 @@
+<view class="view">
+<button class="bt"  open-type="contact"> 联系</button>
+</view>
+<view class="blank1">
+</view>
+<view class="view"  >
+    <button class="bt" open-type="feedback"> 反馈</button>
+</view>
+<view class="blank1">
+</view>
+<view class="view"  >
+    <button class="bt" open-type="share"> 分享</button>
+</view>
+<view>
+</view>

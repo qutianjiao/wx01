@@ -1,0 +1,27 @@
+page {
+    background-color: #d5e4f7;
+  }
+  .view{
+    background-color: #f4f7fc;
+    align-items: center;
+    justify-content: center;  
+    width: 700rpx; 
+    height: 80rpx;
+    margin: 20rpx;
+  }
+  .blank1{
+    background-color: #d5e4f7;
+    width: 100rpx;
+  }
+  .bt{
+  border: none;
+  font-size: 35rpx;
+  margin-left: 0rpx;
+  font-weight:500;
+  background-color: transparent;
+  text-align: left;
+  float:left;
+  }
+  .bt::after{
+    border: none;
+  }

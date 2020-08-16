@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "SearchInput":"../../components/SearchInput/SearchInput",
+    "calendar":"plugin://calendar/calendar"
+  },
+  "navigationBarTitleText": "BFS会议室"
+}

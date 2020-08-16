@@ -1,0 +1,29 @@
+<view class="conference_bind" bindtap="viewClick">
+  <image style="width: 30px; height: 30px; background-color: #f4f7fc;" src="https://yanxuan.nosdn.127.net/d12941c7ab8cdf3b189e3d32910a99b5.png"></image>
+  <label class="title">F2会议室</label>
+  <view>
+    <text decode="true" class="time">GDC侧会议室</text>
+  </view>
+</view>
+<view class="blank1"></view>
+<view class="time_bind">
+  <span>时间</span>
+  <text decode="true" class="time">
+    2020-07-29 星期三&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
+  </text>
+  <image style="width: 20px; height: 20px; background-color: #f4f7fc;" bindtap="addClick" src="https://yanxuan.nosdn.127.net/2846dc945c23a6f628205a620f1a5a77.png" />
+</view>
+<view class="clock_bind">
+  <view>
+    <text decode="true" class="time">
+      8 &nbsp; 9 &nbsp;  10 &nbsp;  11 &nbsp;  12 &nbsp;  13 &nbsp; 14 &nbsp; 15 &nbsp; 16&nbsp; 17&nbsp;  18&nbsp;  19
+    </text>
+  </view>
+</view>
+<view class="title_bind">
+  <label>会议主题</label>
+  <input type="text" bindinput="titleInput" placeholder="请输入" />
+</view>
+<view class="button_bind">
+  <button type="default" plain="true">立即预定</button>
+</view>

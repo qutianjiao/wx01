@@ -1,0 +1,36 @@
+.calendar {
+  background-color: #eeedff;
+  padding-top: 15px;
+}
+.header {
+  font-size: small; /*修改了标题文字和按钮的大小*/
+  color: #605eac;   /*修改了标题文字和按钮的颜色*/
+}
+.border{
+  background-color: #dddcff;
+  color: white;
+  font-size: smaller;
+}
+page {
+  background-color: #d5e4f7;
+}
+.blank1{
+  background-color: #d5e4f7;
+  width: 100rpx;
+}
+.conference_bind{
+  background-color: #f4f7fc;
+  align-items: center;
+  justify-content: center;  
+  width: 700rpx; 
+  height: 400rpx;
+  margin: 20rpx;
+  padding: 20rpx;
+}
+.title{
+  font-size: 35rpx;
+}
+.time{
+  color: darkcyan;
+  font-size: 30rpx;
+}

@@ -1,0 +1,3 @@
+<view class="conference_bind" bindtap ="viewClick"> 
+  <label class="title">您近期没有会议哦~</label>
+</view>

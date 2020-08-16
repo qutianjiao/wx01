@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/goods_list/index",
+    
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goos_detail/index",
+    "pages/cart/index", 
+    "pages/collect/index", 
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",   
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/reserve/index",
+    "pages/pay/index"
+  ],
+  "window":{ 
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0e4b9d",
+    "navigationBarTitleText": "BFS会议室预约",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "会议室",
+        "iconPath": "icon/_room.png",
+        "selectedIconPath": "icon/room.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "我的预约",
+        "iconPath": "icon/_order.png",
+        "selectedIconPath": "icon/order.png"
+      },
+      {
+        "pagePath": "pages/goods_list/index",
+        "text": "我",
+        "iconPath": "icon/_me.png",
+        "selectedIconPath": "icon/me.png"
+      }
+    ]
+  },
+"plugins": {
+  "calendar": {
+    "version": "1.1.3",
+    "provider": "wx92c68dae5a8bb046"
+  }
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
